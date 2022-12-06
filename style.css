@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  background: white;
+  background-color: #FFFFFF;
   color: #1c1c1c;
   margin: 64px;
   border-radius: 25px;
@@ -63,9 +63,9 @@ body {
   display: flex;
   flex-direction: column;
   background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
   margin-top: 32px;
   padding: 32px;
-  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
   border-radius: 20px;
 }
 
@@ -102,12 +102,19 @@ body {
 }
 
 .dark .container {
-  background: #333439;
+  background-image: url(https://codeworkshop.dev/static/8a5b2989e06c0d8376faabd9a879dbf9/2706c/frontendbackend.jpg);
   color: #F7F7F7;
 }
 
 .dark .projetos{
-  color: #1C1C1C;
+background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10.5px );
+-webkit-backdrop-filter: blur( 10.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color: #1C1C1C;
+border-radius: 20px;
 }
 
 .dark .tema button {
@@ -172,6 +179,7 @@ body {
 
 @media (max-width: 700px) {
   .container{
+   background-color: #FFFFFF;
    margin: 20px;
    padding: 50px;
   }
